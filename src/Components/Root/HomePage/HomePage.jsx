@@ -1,9 +1,10 @@
 import React from 'react';
+import BannerSection from '../BannerSection/BannerSection';
 
 const HomePage = () => {
     return (
-        <div>
-            <h1 className='text-4xl font-bold'>This is Home Page</h1>
+        <div className='max-w-7xl mx-auto'>
+           <BannerSection></BannerSection>
         </div>
     );
 };
